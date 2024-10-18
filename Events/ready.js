@@ -7,7 +7,7 @@ module.exports = async bot => {
 
     var currentdate = new Date().toLocaleString('fr-FR');
 
-    bot.user.setActivity("être en cours de développement");
+    bot.user.setActivity("Deltaria - Semi-RP / Semi-RPG");
     
     console.log(`${bot.user.tag} s'est bien connecté le ${currentdate}`)
     
