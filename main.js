@@ -9,4 +9,14 @@ bot.commands = new Discord.Collection()
 loadCommands(bot)
 loadEvents(bot)
 
+bot.invites = new Map();
+
+
+bot.function = {
+    createId: require("./Fonctions/createId"),
+}
+
+process.on('unhandledRejection', (error) => {
+    console.error('Une promesse a été rejetée :', error);
+});
 bot.login(config.token)

@@ -4,10 +4,10 @@ module.exports = async () => {
 
     let db = await mysql.createConnection({
 
-        host: "mysql2.ouiheberg.com",
-        user: "u8803_wZpHZe7E48",
-        password: "OVnX@U.4C4t9!=yHMJFP.Xlx",
-        database: "s8803_BDD"
+        host: "mysql4.ouiheberg.com",
+        user: "u9170_ayazXIK3nC",
+        password: "oxtc3L!yv98CBzM.icKxw+a3",
+        database: "s9170_deltaria_bot"
 
     })
 
